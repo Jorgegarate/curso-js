@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', e => { fetchData()
         carrito = JSON.parse(localStorage.getItem('carrito'))
         pintarCarrito()
     }});
-//añadir al carrit
+//añadir al carrito
 cards.addEventListener('click', e => { addCarrito(e) });
 items.addEventListener('click', e => { btnAumentarDisminuir(e) })
 // Traer productos
