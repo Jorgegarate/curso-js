@@ -55,7 +55,6 @@ $(document).on('change','#regiones', function() {
 $(document).on('change','#provincias', function() {
     var idProvincia= $('#provincias :selected').val();
     console.log('codigosssss:' + idProvincia);
-    console.log(pagos)
     if(idRegio=!null){
         $.ajax({
             type:"GET",
